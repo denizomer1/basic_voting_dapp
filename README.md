@@ -32,13 +32,13 @@ Copyandromeda deploy voting-system.ts --network testnet
 
 # Initialize with proposals:
 
-typescriptCopyawait client.instantiate(contractAddress, {
+await client.instantiate(contractAddress, {
   proposals: ["Proposal 1", "Proposal 2", "Proposal 3"]
 });
 
 # Integrate the frontend component:
 
-typescriptCopyimport { VotingInterface } from './components/VotingInterface';
+import { VotingInterface } from './components/VotingInterface';
 
 function App() {
   return (
