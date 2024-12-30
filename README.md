@@ -11,7 +11,7 @@ Securely cast votes
 Prevent double voting
 Display real-time vote counts
 
-#Vision:
+# Vision:
 The Basic Voting DApp project aims to demonstrate the fundamental concepts of decentralized application (DApp) development using Andromeda's tools and smart contract framework. 
 This project showcases a simple yet effective voting system that maintains the state of proposals and votes, prevents double voting, and provides query functions for results
 
