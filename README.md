@@ -36,7 +36,7 @@ The Basic Voting DApp project aims to demonstrate the fundamental concepts of de
 This project showcases a simple yet effective voting system that maintains the state of proposals and votes, prevents double voting, and provides query functions for results
 
 # Software Development Plan
-1.
+# 1.
 The Basic Voting DApp on the Andromeda Protocol enables decentralized and transparent voting processes. This project features a user-friendly interface where users can create proposals and cast votes securely through smart contracts. The DApp ensures fairness by preventing double voting and maintaining an immutable record of all transactions. Key features include:
 Proposal Creation: Users can easily create new voting proposals.
 Secure Voting: Votes are securely cast and recorded on the blockchain.
@@ -45,10 +45,10 @@ Double Voting Prevention: Mechanisms are in place to prevent users from voting m
 User-Friendly Interface: The DApp provides a seamless and intuitive user experience.
 By leveraging the Andromeda Protocol, this Voting DApp showcases the potential for decentralized governance and decision-making, offering a reliable and tamper-proof solution for various voting scenarios.
 
-2.
+# 2.
 The Basic Voting DApp aims to revolutionize how communities make decisions by providing a secure, transparent, and tamper-proof voting system built on the Andromeda Protocol. This project empowers users to create and vote on proposals with confidence, knowing that their votes are securely recorded on the blockchain. By preventing double voting and ensuring real-time tallying, the DApp promotes fairness and trust in the voting process. Its user-friendly interface makes decentralized governance accessible to all, paving the way for broader adoption of blockchain-based decision-making in various sectors.
 
-3.
+# 3.
 Software Development Plan for Basic Voting DApp
 Define ADO Functions and Variables:
 Functions:
@@ -86,7 +86,8 @@ Deploy the smart contract on the Andromeda Protocol.
 Host the front-end interface on a reliable web server.
 Ensure the DApp is accessible to users and functioning as intended.
 
-# 4. Installation
+# 4. 
+# Installation
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
