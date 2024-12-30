@@ -87,7 +87,7 @@ Host the front-end interface on a reliable web server.
 Ensure the DApp is accessible to users and functioning as intended.
 
 4.
-#Installation
+# Installation
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
