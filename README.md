@@ -1,6 +1,7 @@
 # Project Name: basic_voting_dapp
 
-# About Me: Hello I am Omer, a blockchain and web3 learner student. i developed some basic programs with rust and i love learning new programming languages.
+# About Me: 
+Hello I am Omer, a blockchain and web3 learner student. i developed some basic programs with rust and i love learning new programming languages.
 
 # Project Details:
 This project demonstrates a basic decentralized voting application (DApp) built on the Andromeda Protocol. The DApp allows users to create proposals, vote securely, and view vote tallies in real-time.
