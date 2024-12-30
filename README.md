@@ -1,11 +1,11 @@
-#Project Name: basic_voting_dapp
+# Project Name: basic_voting_dapp
 
-#About Me: Hello I am Omer, a blockchain and web3 learner student. i developed some basic programs with rust and i love learning new programming languages.
+# About Me: Hello I am Omer, a blockchain and web3 learner student. i developed some basic programs with rust and i love learning new programming languages.
 
-#Project Details:
+# Project Details:
 This project demonstrates a basic decentralized voting application (DApp) built on the Andromeda Protocol. The DApp allows users to create proposals, vote securely, and view vote tallies in real-time.
 
-#Features
+# Features
 Create new proposals
 Securely cast votes
 Prevent double voting
@@ -15,7 +15,7 @@ Display real-time vote counts
 The Basic Voting DApp project aims to demonstrate the fundamental concepts of decentralized application (DApp) development using Andromeda's tools and smart contract framework. 
 This project showcases a simple yet effective voting system that maintains the state of proposals and votes, prevents double voting, and provides query functions for results
 
-#Software Development Plan
+# Software Development Plan
 1.
 The Basic Voting DApp on the Andromeda Protocol enables decentralized and transparent voting processes. This project features a user-friendly interface where users can create proposals and cast votes securely through smart contracts. The DApp ensures fairness by preventing double voting and maintaining an immutable record of all transactions. Key features include:
 Proposal Creation: Users can easily create new voting proposals.
@@ -37,7 +37,7 @@ castVote(proposalID, vote): Function to cast a vote for a specific proposal.
 getVoteCount(proposalID): Query function to retrieve the current vote count for a proposal.
 preventDoubleVote(userID, proposalID): Function to ensure users can only vote once per proposal.
 
-#Variables:
+# Variables:
 proposals: An array to store proposal details.
 votes: A mapping to store user votes.
 userVoteStatus: A mapping to track if a user has voted on a proposal.
@@ -89,47 +89,47 @@ Query and execute functions
 
 #Installation
 
-#Prerequisites
+# Prerequisites
 Before you begin, ensure you have met the following requirements:
 Node.jsand npm installed
 Andromeda Protocol account
 Andromeda CLI installed
 
-#Clone the Repository:
+# Clone the Repository:
 git clone https://github.com/denizomer1/basic_voting_dapp.git
 cd basic_voting_dapp
 
-#Install Dependencies:
+# Install Dependencies:
 npm install
 Configure Environment Variables: Create a .env file in the root directory and add your Andromeda credentials:
 ANDROMEDA_API_KEY=your_api_key
 ANDROMEDA_ACCOUNT_ID=your_account_id
 
-#Deployment
+# Deployment
 Compile the Smart Contract:
 npx hardhat compile
 
 #Deploy the Smart Contract:
 npx hardhat run scripts/deploy.js --network andromeda
 
-#Start the Front-End Application:
+# Start the Front-End Application:
 npm start
 Open your browser and navigate to http://localhost:3000 to use the Basic Voting DApp.
 
-#Usage
+# Usage
 Create Proposal:
 Navigate to the proposal creation section.
 Enter proposal details and submit.
 
-#Cast Vote:
+# Cast Vote:
 Browse available proposals.
 Select a proposal and cast your vote.
 
-#View Results:
+# View Results:
 Navigate to the results section to see real-time vote counts.
 
-#Contributing
+# Contributing
 Contributions are welcome! Please feel free to fork the repository and submit a pull request.
 
-#License
+# License
 This project is licensed under the MIT License
