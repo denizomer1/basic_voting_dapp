@@ -12,6 +12,25 @@ Securely cast votes
 Prevent double voting
 Display real-time vote counts
 
+# Smart Contract (VotingSystem.ts)
+Implements basic voting functionality
+Maintains state for proposals and votes
+Prevents double voting
+Provides query functions for results
+
+# Frontend Interface (VotingInterface.tsx)
+React component for interacting with the contract
+Displays proposals and current vote counts
+Handles voting transactions
+Shows loading and error states
+
+# Key features demonstrated
+State management using Andromeda's tools
+Basic smart contract interaction
+Error handling
+User interface integration
+Query and execute functions
+
 # Vision:
 The Basic Voting DApp project aims to demonstrate the fundamental concepts of decentralized application (DApp) development using Andromeda's tools and smart contract framework. 
 This project showcases a simple yet effective voting system that maintains the state of proposals and votes, prevents double voting, and provides query functions for results
@@ -68,26 +87,6 @@ Host the front-end interface on a reliable web server.
 Ensure the DApp is accessible to users and functioning as intended.
 
 4.
-
-# Smart Contract (VotingSystem.ts)
-Implements basic voting functionality
-Maintains state for proposals and votes
-Prevents double voting
-Provides query functions for results
-
-# Frontend Interface (VotingInterface.tsx)
-React component for interacting with the contract
-Displays proposals and current vote counts
-Handles voting transactions
-Shows loading and error states
-
-# Key features demonstrated
-State management using Andromeda's tools
-Basic smart contract interaction
-Error handling
-User interface integration
-Query and execute functions
-
 #Installation
 
 # Prerequisites
